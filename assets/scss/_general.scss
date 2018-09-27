@@ -1,0 +1,63 @@
+// General Style
+@font-face {
+  font-family: 'Lato-Regular';
+  src: url('../fonts/Lato-Regular.eot?#iefix') format('embedded-opentype'),  url('../fonts/Lato-Regular.woff') format('woff'), url('../fonts/Lato-Regular.ttf')  format('truetype'), url('../fonts/Lato-Regular.svg#Lato-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Lato-Light';
+  src: url('../fonts/Lato-Light.eot?#iefix') format('embedded-opentype'),  url('../fonts/Lato-Light.woff') format('woff'), url('../fonts/Lato-Light.ttf')  format('truetype'), url('../fonts/Lato-Light.svg#Lato-Light') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'WorkSans-ExtraLight';
+  src: url('../fonts/WorkSans-ExtraLight.eot?#iefix') format('embedded-opentype'),  url('../fonts/WorkSans-ExtraLight.woff') format('woff'), url('../fonts/WorkSans-ExtraLight.ttf')  format('truetype'), url('../fonts/WorkSans-ExtraLight.svg#WorkSans-ExtraLight') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'WorkSans-SemiBold';
+  src: url('../fonts/WorkSans-SemiBold.eot?#iefix') format('embedded-opentype'),  url('../fonts/WorkSans-SemiBold.woff') format('woff'), url('../fonts/WorkSans-SemiBold.ttf')  format('truetype'), url('../fonts/WorkSans-SemiBold.svg#WorkSans-SemiBold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'WorkSans-Regular';
+  src: url('../fonts/WorkSans-Regular.eot?#iefix') format('embedded-opentype'),  url('../fonts/WorkSans-Regular.woff') format('woff'), url('../fonts/WorkSans-Regular.ttf')  format('truetype'), url('../fonts/WorkSans-Regular.svg#WorkSans-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'WorkSans-Light';
+  src: url('../fonts/WorkSans-Light.eot?#iefix') format('embedded-opentype'),  url('../fonts/WorkSans-Light.woff') format('woff'), url('../fonts/WorkSans-Light.ttf')  format('truetype'), url('../fonts/WorkSans-Light.svg#WorkSans-Light') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body{
+  font-family: $latoReg, $latoLight,$workSansSemi,$workSansExtraLight, sans-serif;
+  font-size: 15px;
+}
+
+
+a{
+  text-decoration: none;
+}
+
+a:hover{
+  text-decoration: none;
+  color: inherit;
+}
+li{
+  list-style: none;
+}
+
+img{
+  max-width: 100%;
+}
